@@ -1,17 +1,23 @@
-# Lineageos-22-for-S6-EGDE-ZEROLTEXX
-LineageOS 22 (Android 15) for Samsung Galaxy S6 Edge (zeroltexx) – built from source by a 13‑year‑old developer. Experimental. Wi‑Fi only.
 # LineageOS 22 (Android 15) for Samsung Galaxy S6 Edge (zeroltexx)
 
 ![LineageOS](https://img.shields.io/badge/LineageOS-22.1-blue?logo=lineageos)
 ![Android](https://img.shields.io/badge/Android-15-green?logo=android)
 ![Status](https://img.shields.io/badge/status-alpha-red)
 
-## ⚠️ Important – Please Read
+## ⚠️ WARNING – READ THIS FIRST
+
+> **This software will void your Samsung KNOX warranty (0x1).**  
+> **Any damage to your device or data is YOUR responsibility.**  
+> **Use at your own risk. No one else is liable.**
 
 This is an **alpha / experimental** build. It is **not a daily driver**.  
 Calls and mobile data (RIL) do **not** work. Use this ROM only for testing, learning, and fun.
 
----
+## 📥 Download Status
+
+> **🚧 DOWNLOAD NOT AVAILABLE YET – ROM IS STILL IN DEVELOPMENT**  
+> The build is being tested. A download link will be added here once the first working build is ready (estimated 3–7 days).  
+> Do not ask for ETAs.
 
 ## 📱 About
 
@@ -19,8 +25,6 @@ LineageOS 22.1 (based on Android 15) for the **Samsung Galaxy S6 Edge (SM-G925F 
 Built from source using the Exynos 7420 common tree and kernel from the `samsungexynos7420` community.  
 **ROM size:** ~800 MB – 1.2 GB (depending on options).  
 **Build environment:** Crave.io cloud DevSpace.
-
----
 
 ## ✅ What Works (probably)
 
@@ -45,29 +49,14 @@ Built from source using the Exynos 7420 common tree and kernel from the `samsung
 
 *If you find more bugs, please open an issue with logs (`adb logcat`, `dmesg`).*
 
----
+## 📥 Installation (once download is available)
 
-## 📥 Installation
-
-1. **Prerequisites**
-   - Unlocked bootloader
-   - Latest **TWRP** for `zeroltexx`
-
-2. **Backup** your current ROM (always do this).
-
-3. **Wipe** in TWRP:
-   - System
-   - Data
-   - Cache
-   - Dalvik/ART cache
-
+1. **Prerequisites** – Unlocked bootloader, latest TWRP for `zeroltexx`.
+2. **Backup** your current ROM.
+3. **Wipe** in TWRP: System, Data, Cache, Dalvik/ART cache.
 4. **Flash** the ROM zip.
-
-5. **(Optional)** Flash **MindTheGapps** for Android 15 (or any Gapps package that supports API level 35/Android 15).
-
-6. **Reboot** and wait. First boot may take 5–10 minutes.
-
----
+5. **(Optional)** Flash **MindTheGapps** for Android 15.
+6. **Reboot** – first boot may take 5–10 minutes.
 
 ## 🧪 Build Information
 
@@ -77,11 +66,7 @@ Built from source using the Exynos 7420 common tree and kernel from the `samsung
 - **Built by:** [project289](https://github.com/project289) (13 years old)
 - **Build host:** Crave.io cloud DevSpace
 
----
-
 ## 🙏 Credits & Source Code
-
-This ROM would not exist without the hard work of the open‑source community.
 
 | Component | Source Repository |
 |-----------|-------------------|
@@ -92,15 +77,13 @@ This ROM would not exist without the hard work of the open‑source community.
 | Patches | [`samsungexynos7420/7420_patches`](https://github.com/samsungexynos7420/7420_patches) |
 
 ### Special Thanks
-Credits cuz used some kernals and divice tree from fakemanoan
+
 - **The LineageOS Team** – for the incredible OS.
 - **fakemanoan** – for his tireless work on Exynos 7420 modern Android ports.
 - **The `samsungexynos7420` organization** – for keeping this old device alive.
 - **The Android Open Source Project (AOSP)**.
 - **Crave.io** – for providing free cloud build servers.
 - All other contributors (Ivan_Meler, Enesuzun2002, Ananjaser1211, etc.).
-
----
 
 ## ⚖️ License
 
@@ -110,17 +93,11 @@ If you modify the kernel, you **must** publish your changes under the GPLv2.
 
 Other parts of the ROM (framework, apps) are under **Apache License 2.0** as per LineageOS and AOSP.
 
----
-
 ## 📞 Contact / Support
 
-- **XDA thread:** *(link once posted)* for now its not cuz its in devolepment
-- **GitHub Issues:** Use the issue tracker of this repository.
+- **GitHub Issues:** [Use this repository's issue tracker](https://github.com/project289/Lineageos-22-for-S6-EGDE-ZEROLTEXX/issues)
 
 ---
 
 *Built with patience, caffeine, and the help of the open‑source community.*  
 **– project289, age 13**
-
-for now the rom its not published but it would be published after 3days or maybe 1week 
-IN DEVOLEPMENT FOR NOW
