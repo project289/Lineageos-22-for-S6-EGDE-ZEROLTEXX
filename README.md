@@ -77,7 +77,7 @@ Built from source using the Exynos 7420 common tree and kernel from the `samsung
 | Patches | [`samsungexynos7420/7420_patches`](https://github.com/samsungexynos7420/7420_patches) |
 
 ### Special Thanks
-
+CREDITS GOES TO :
 - **The LineageOS Team** – for the incredible OS.
 - **fakemanoan** – for his tireless work on Exynos 7420 modern Android ports.
 - **The `samsungexynos7420` organization** – for keeping this old device alive.
