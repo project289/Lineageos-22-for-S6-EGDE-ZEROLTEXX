@@ -145,7 +145,8 @@ If you want to build this ROM yourself, use the manifest from:
 👉 **[project289/s6_manifests](https://github.com/project289/s6_manifests)**
 
 IF YOU ALSO EDITED YOU MUST GIVE CREDIT TO RIGHT PATH ONLY GIVE CRedit ME IF YOU EDITED THE FILES THAT WERE EDITED BY ME 
-READ THE EDITED FILES FROM HERE [Files Edited of Custom ROM.txt](https://github.com/user-attachments/files/29967301/Files.Edited.of.Custom.ROM.txt)
+THESE ARE THE FILES I HAVE UPDATED
+
 
 ================================================================================
 S6 Edge Android 15 Build – File Edits Summary
