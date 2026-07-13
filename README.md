@@ -3,7 +3,7 @@
 ![LineageOS](https://img.shields.io/badge/LineageOS-22.1-blue?logo=lineageos)
 ![Android](https://img.shields.io/badge/Android-15-green?logo=android)
 ![Status](https://img.shields.io/badge/status-alpha-red)
-
+[![Build LineageOS 22.1 for S6 Edge](https://github.com/project289/s6_manifests/actions/workflows/build.yml/badge.svg)](https://github.com/project289/s6_manifests/actions/workflows/build.yml)
 ## ⚠️ WARNING – READ THIS FIRST
 
 > **This software will void your Samsung KNOX warranty (0x1).**  
