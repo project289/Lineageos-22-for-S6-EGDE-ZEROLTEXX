@@ -44,6 +44,7 @@ Built from source using the Exynos 7420 common tree and kernel from the samsunge
 
 - **ROM size:** ~800 MB – 1.2 GB (depending on options).
 - **Build environment:** Local (WSL2 on Windows) after being banned from Crave.io for using the devspace incorrectly.
+now again at crave.
 - **All source code is available on GitHub** – nothing was lost.
 
 ---
