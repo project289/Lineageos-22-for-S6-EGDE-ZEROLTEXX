@@ -1,7 +1,7 @@
 
 ---
 
-## 📄 Updated README for `Lineageos-22-for-S6-EGDE-ZEROLTEXX`
+## Updated README for `Lineageos-22-for-S6-EGDE-ZEROLTEXX`
 
 **Repository:** `https://github.com/project289/Lineageos-22-for-S6-EGDE-ZEROLTEXX`
 
@@ -14,8 +14,13 @@
 
 ---
 
-## ⚠️ WARNING – READ THIS FIRST
-> READ THIS FIRST ELSE YOU GONNA GTE FIRED IF THE ALARM DIDNT WORK
+  ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️
+ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ 
+
+WARNING – READ THIS FIRST
+
+> READ THIS FIRST ELSE YOU GONNA GET FIRED IF THE ALARM DIDNT WORK
+> or you will get some sloppy sloppy thing
 > **This software will void your Samsung KNOX warranty (0x1).**  
 > Any damage to your device or data is **YOUR responsibility**.  
 > Use at your own risk. No one else is liable.
@@ -26,30 +31,15 @@ Calls and mobile data (RIL) do **not** work. Use this ROM only for testing, lear
 
 ---
 
-## 📥 Download Status
+currently on Devolempment
+HELP ME
+---
 
-> 🚧 **DOWNLOAD NOT AVAILABLE YET – ROM IS STILL IN DEVELOPMENT**
 
-The build is currently being synced and tested locally.  
-A download link will be added here once the first working build is ready (estimated 1–2 weeks).  
-**Do not ask for ETAs.**
 
 ---
 
-## 📱 About
-
-**LineageOS 22.1** (based on **Android 15**) for the **Samsung Galaxy S6 Edge (SM-G925F / zeroltexx)**.
-
-Built from source using the Exynos 7420 common tree and kernel from the samsungexynos7420 community.
-
-- **ROM size:** ~800 MB – 1.2 GB (depending on options).
-- **Build environment:** Local (WSL2 on Windows) after being banned from Crave.io for using the devspace incorrectly.
-now again at crave.
-- **All source code is available on GitHub** – nothing was lost.
-
----
-
-## ✅ What Works (probably)
+## What Works (probably)
 
 - Booting to home screen
 - Touchscreen
@@ -62,7 +52,7 @@ now again at crave.
 
 ---
 
-## ❌ What Does NOT Work (bugs)
+## What Does NOT Work (bugs) maybe?
 
 - **RIL (Cellular, calls, mobile data)** – completely broken. Wi‑Fi only.
 - **Stock camera** – green screen / crash. Use Open Camera from Play Store as a workaround.
@@ -76,7 +66,7 @@ If you find more bugs, please open an issue with logs (`adb logcat`, `dmesg`).
 
 ---
 
-## 🧪 Build Information
+##  Build Information
 
 | Item | Details |
 |------|---------|
@@ -90,18 +80,11 @@ If you find more bugs, please open an issue with logs (`adb logcat`, `dmesg`).
 
 ---
 
-## 📥 Installation (once download is available)
 
-1. **Prerequisites** – Unlocked bootloader, latest TWRP for zeroltexx.
-2. **Backup** your current ROM.
-3. **Wipe** in TWRP: System, Data, Cache, Dalvik/ART cache.
-4. **Flash** the ROM zip.
-5. **(Optional)** Flash MindTheGapps for Android 15.
-6. **Reboot** – first boot may take 5–10 minutes.
 
 ---
 
-🙏 Credits & Source Code
+Credits & Source Code
 Component	Source Repository
 Common device tree	samsungexynos7420/android_device_samsung_universal7420-common
 Device tree (zeroltexx)	samsungexynos7420/android_device_samsung_zeroltexx
@@ -109,11 +92,10 @@ Kernel source (GPLv2)	samsungexynos7420/android_kernel_samsung_universal7420
 Vendor blobs	samsungexynos7420/proprietary_vendor_samsung
 Patches	samsungexynos7420/7420_patches
 Special Thanks
-The LineageOS Team – for the incredible OS.
+The LineageOS Team 
+fakemanoan –
 
-fakemanoan – for his tireless work on Exynos 7420 modern Android ports.
-
-The samsungexynos7420 organization – for keeping this old device alive.
+The samsungexynos7420 organization – 
 
 The Android Open Source Project (AOSP).
 
@@ -121,7 +103,7 @@ Crave.io – for providing free cloud build servers (even though I got banned, I
 
 All other contributors (Ivan_Meler, Enesuzun2002, Ananjaser1211, etc.).
 
-⚖️ License
+ License
 This ROM distribution is subject to the GNU General Public License v2 because it contains the Linux kernel.
 
 The kernel source code used in this build can be found in the samsungexynos7420/android_kernel_samsung_universal7420 repository.
@@ -129,21 +111,21 @@ If you modify the kernel, you must publish your changes under the GPLv2.
 
 Other parts of the ROM (framework, apps) are under Apache License 2.0 as per LineageOS and AOSP.
 
-📞 Contact / Support
+📞= Contact / Support
 GitHub Issues: Use this repository's issue tracker.
 
 XDA Thread: (coming soon)
 
-Built with patience, caffeine, and the help of the open‑source community.
-
-– project289 (Freewriter27654), age 13
 
 
-## 🛠️ Build It Yourself (for developers)
+– project289 (Freewriter27654), 
+
+
+##  Build It Yourself (for developers)
 
 If you want to build this ROM yourself, use the manifest from:
 
-👉 **[project289/s6_manifests](https://github.com/project289/s6_manifests)**
+ **[project289/s6_manifests](https://github.com/project289/s6_manifests)**
 
 IF YOU ALSO EDITED YOU MUST GIVE CREDIT TO RIGHT PATH ONLY GIVE CRedit ME IF YOU EDITED THE FILES THAT 
 WERE EDITED BY ME 
@@ -342,11 +324,11 @@ Repo: samsungexynos7420/android_device_samsung_slsi_sepolicy (lineage-21)
 
 All changes in the following repos have been pushed to the specified branches:
 
-Repo: project289/android_device_samsung_zeroltexx       → branch lineage-22.1 ✅
-Repo: project289/android_device_samsung_universal7420-common → branch lineage-22.1 ✅
-Repo: project289/android_kernel_samsung_universal7420  → branch lineage-22.1 ✅
-Repo: project289/s6_manifests                           → branch main ✅
-Repo: project289/7420_patches                           → branch lineage-20.0 ✅
+Repo: project289/android_device_samsung_zeroltexx       → branch lineage-22.1 
+Repo: project289/android_device_samsung_universal7420-common → branch lineage-22.1 
+Repo: project289/android_kernel_samsung_universal7420  → branch lineage-22.1 
+Repo: project289/s6_manifests                           → branch main 
+Repo: project289/7420_patches                           → branch lineage-20.0 
 
 
 ================================================================================
@@ -393,12 +375,12 @@ The build source is syncing to F:/lineage.
 ================================================================================
 END OF REPORT
 ================================================================================
+
+and WAy MOre FILES THAT WERE EDITED 
+WHY is it not HERE 
+Well
+I DONT REMMEBR IT
+
 ```bash
 repo init -u https://github.com/project289/s6_manifests.git -b main -m zeroltexx.xml
-repo sync -c -j4 --force-sync --no-clone-bundle --no-tags
-source build/envsetup.sh
-export TARGET_PRODUCT=lineage_zeroltexx
-export TARGET_BUILD_VARIANT=userdebug
-export TARGET_RELEASE=aosp_current
-export TARGET_DEVICE=zeroltexx
-make -j4 bacon
+
