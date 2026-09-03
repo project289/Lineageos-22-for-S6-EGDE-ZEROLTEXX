@@ -381,6 +381,19 @@ WHY is it not HERE
 Well
 I DONT REMMEBR IT
 
+first started on crave servers 
+then on WSL
+then on UBUNTU
+then AGAIN 
+AT
+CRAVE
+so THIS readme
+is sus for some reason
+if you see
+something like wrong command or wrong sentance 
+call 911
+JUST JOKING
+
 ```bash
 repo init -u https://github.com/project289/s6_manifests.git -b main -m zeroltexx.xml
 
