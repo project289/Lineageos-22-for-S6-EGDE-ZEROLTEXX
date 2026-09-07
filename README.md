@@ -331,34 +331,7 @@ Repo: project289/s6_manifests                           → branch main
 Repo: project289/7420_patches                           → branch lineage-20.0 
 
 
-================================================================================
-8. LOCAL BUILD ENVIRONMENT (Not Pushed)
-================================================================================
-
-File: ~/.wslconfig
-────────────────────────────────────────────────────────────────────────────────
-CHANGES:
-- Added memory=8GB
-- Added swap=16GB
-- Added processors=4
-
-File: Environment variables
-────────────────────────────────────────────────────────────────────────────────
-CHANGES:
-- Added export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
-
-
-================================================================================
-9. DOCUMENTATION FILES (CREATED LOCALLY, NOT PUSHED)
-================================================================================
-
-File: blueprint.html                    (in Custom os/ and samsung s6 edge dev/)
-File: README.md                         (in Custom os/ and samsung s6 edge dev/)
-File: build_instructions.txt            (in Custom os/ and samsung s6 edge dev/)
-File: local_manifest.xml                (in Custom os/)
-
-
-================================================================================
+===========================
 10. SUMMARY
 ================================================================================
 
