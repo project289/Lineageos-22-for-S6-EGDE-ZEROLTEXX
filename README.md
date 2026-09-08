@@ -72,9 +72,8 @@ If you find more bugs, please open an issue with logs (`adb logcat`, `dmesg`).
 |------|---------|
 | Android version | 15 (LineageOS 22.1) |
 | Device | Samsung Galaxy S6 Edge (zeroltexx) |
-| Build date | July 2026 |
-| Built by | project289 (13 years old) |
-| Build host | Local (WSL2 on Windows) + previously Crave.io |
+| Builddatee 2067 fahh
+ Crave.io |
 | Kernel version | 3.10 (Exynos 7420) |
 | Status | Experimental / Alpha |
 
@@ -136,7 +135,7 @@ THESE ARE THE FILES I HAVE UPDATED
 S6 Edge Android 15 Build – File Edits Summary
 Project: LineageOS 22.1 (Android 15) for Samsung Galaxy S6 Edge (zeroltexx)
 Developer: project289 (Freewriter27654)
-Date: July 13, 2026
+Date: July 13, 2067
 ================================================================================
 
 ================================================================================
