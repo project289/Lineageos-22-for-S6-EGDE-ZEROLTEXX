@@ -109,6 +109,8 @@ Device tree (zeroltexx)	samsungexynos7420/android_device_samsung_zeroltexx
 Kernel source (GPLv2)	samsungexynos7420/android_kernel_samsung_universal7420
 Vendor blobs	samsungexynos7420/proprietary_vendor_samsung
 Patches	samsungexynos7420/7420_patches
+check for source code at my manifest or at https://github.com/project289/s6_manifests
+
 Special Thanks
 The LineageOS Team 
 fakemanoan –
@@ -117,7 +119,7 @@ The samsungexynos7420 organization –
 
 The Android Open Source Project (AOSP).
 
-Crave.io – for providing free cloud build servers (even though I got banned, I appreciate the platform).
+Crave.io – for providing free cloud build servers (even though I got banned, for some  skibidi reason i got unbanned
 
 All other contributors (Ivan_Meler, Enesuzun2002, Ananjaser1211, etc.).
 
@@ -132,7 +134,7 @@ Other parts of the ROM (framework, apps) are under Apache License 2.0 as per Lin
 📞= Contact / Support
 GitHub Issues: Use this repository's issue tracker.
 
-XDA Thread: (coming soon)
+email:hassanryk25@gmail.com
 
 
 
