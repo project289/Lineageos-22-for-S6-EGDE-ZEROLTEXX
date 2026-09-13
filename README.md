@@ -114,13 +114,9 @@ check for source code at my manifest or at https://github.com/project289/s6_mani
 Special Thanks
 The LineageOS Team 
 fakemanoan –
-
 The samsungexynos7420 organization – 
-
 The Android Open Source Project (AOSP).
-
 Crave.io – for providing free cloud build servers (even though I got banned, for some  skibidi reason i got unbanned
-
 All other contributors (Ivan_Meler, Enesuzun2002, Ananjaser1211, etc.).
 
  License
