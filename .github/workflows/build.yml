@@ -15,7 +15,7 @@ jobs:
 
     - name: Set up swap space
       run: |
-        sudo fallocate -l 10G /swapfile
+        sudo fallocate -l 16G /swapfile
         sudo chmod 600 /swapfile
         sudo mkswap /swapfile
         sudo swapon /swapfile
@@ -39,13 +39,33 @@ jobs:
 
     - name: Initialize and Sync Source
       run: |
-        repo init -u https://github.com/project289/Lineageos-22-for-S6-EGDE-ZEROLTEXX.git -b main --git-lfs
+        repo init -u https://github.com/project289/s6_manifests.git -b main -m zeroltexx.xml
+        sed -i '/<remote name="github"/d' .repo/manifests/zeroltexx.xml
+        sed -i '/zero-common/s/revision="lineage-21.0"/revision="cm-14.1"/' .repo/manifests/zeroltexx.xml
         repo sync -c -j4 --force-sync --no-clone-bundle --no-tags
+
+    - name: Apply fixes
+      run: |
+        echo -e 'COMMON_LUNCH_CHOICES := lineage_zeroltexx-userdebug lineage_zeroltexx-user lineage_zeroltexx-eng\nPRODUCT_MAKEFILES := $(LOCAL_DIR)/lineage_zeroltexx.mk' > device/samsung/zeroltexx/AndroidProducts.mk
+        sed -i 's/PRODUCT_NAME := zeroltexx/PRODUCT_NAME := lineage_zeroltexx/' device/samsung/zeroltexx/lineage_zeroltexx.mk
+        sed -i '/add_lunch_combo/d' device/samsung/zeroltexx/vendorsetup.sh
+        sed -i '43s/^/#/' device/samsung/zero-common/zero-common.mk
+        sed -i '/samsung_slsi-cm/s/^/#/' device/samsung/zero-common/zero-common.mk
+        find device/samsung -name 'BoardConfig*.mk' -exec sed -i 's/TARGET_2ND_ARCH_VARIANT := armv7-a-neon/TARGET_2ND_ARCH_VARIANT := armv8-a/g' {} \;
+        mkdir -p device/samsung/zerolte
+        cp device/samsung/zeroltexx/BoardConfig.mk device/samsung/zerolte/BoardConfig.mk
+        sed -i '46s/^/#/' device/samsung/zerolte/BoardConfig.mk
+        sed -i '/libcamera_client/d' device/samsung/universal7420-common/libshims/libstagefright/Android.bp
+        mkdir -p hardware/samsung_slsi/exynos hardware/samsung_slsi/interfaces hardware/samsung_slsi/graphics hardware/samsung_slsi/tee hardware/samsung_slsi/openmax hardware/samsung_slsi/config
+        find hardware/samsung_slsi/linaro_* -name 'Android.bp' -delete 2>/dev/null || true
 
     - name: Build the ROM
       run: |
         source build/envsetup.sh
-        lunch lineage_zeroltexx-userdebug
+        export TARGET_PRODUCT=lineage_zeroltexx
+        export TARGET_BUILD_VARIANT=userdebug
+        export TARGET_DEVICE=zeroltexx
+        export TARGET_RELEASE=aosp_current
         make bacon -j4
 
     - name: Upload ROM
