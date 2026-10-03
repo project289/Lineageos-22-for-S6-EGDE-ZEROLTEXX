@@ -1,3 +1,8 @@
+
+Updated README for Lineageos-22-for-S6-EGDE-ZEROLTEXX
+
+Repository: https://github.com/project289/Lineageos-22-for-S6-EGDE-ZEROLTEXX
+
 # LineageOS 22 (Android 15) for Samsung Galaxy S6 Edge (zeroltexx)
 
 ![LineageOS](https://img.shields.io/badge/LineageOS-22.1-167C80?style=flat-square&logo=lineageos)
@@ -377,3 +382,4 @@ JUST JOKING
 
 ```bash
 repo init -u https://github.com/project289/s6_manifests.git -b main -m zeroltexx.xml
+
